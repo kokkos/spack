@@ -45,6 +45,8 @@ class Mfem(Package):
     # other version.
     version('develop', branch='master')
 
+    version('3.5.0-rc1', commit='5e6dabb3c8f183dacdc753775fd0fe585ed7224b'),
+
     version('3.4.0',
             '4e73e4fe0482636de3c5dc983cd395839a83cb16f6f509bd88b053e8b3858e05',
             url='https://bit.ly/mfem-3-4', extension='.tar.gz',
